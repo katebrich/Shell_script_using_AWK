@@ -12,7 +12,7 @@ Convert *srt* to *sub*:
 `./subt.sh -i srt -o sub -f 23.145 file.srt`  
 
 Convert *sub* to *srt* AND shift time by 1.5 seconds forward:  
-`./subt.sh -i sub -o srt -t 1,5 -f 25.0 file.sub`
+`./subt.sh -i sub -o srt -t 1.5 -f 25.0 file.sub`
 
 **Notes:**  
 - time change must be given in seconds. Must be a real number with floating point or comma
